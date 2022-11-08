@@ -16,9 +16,7 @@ start:
  outstr
  lea dx,des
  outstr
- mov ax, 20
  outint ax
- mov ax, @data
  mov ds,ax
  lea dx,she
  outstr
@@ -32,9 +30,7 @@ start:
  outstr
  lea dx,des
  outstr
- mov bx, 18
  outint bx
- mov ax, @data
  mov ds,ax
  lea dx,she
  outstr
@@ -46,7 +42,6 @@ start:
  outstr
  lea dx,des
  outstr
- mov cx, 0493
  outint cx
  lea dx,she
  outstr
